@@ -65,7 +65,7 @@ ITEM
 
 // Create Table
 resource "aws_dynamodb_table" "this" {
-  name           = "${var.domain_name}-table"
+  name           = "${var.database_name}-table"
   read_capacity  = 10
   write_capacity = 10
   hash_key       = "title"

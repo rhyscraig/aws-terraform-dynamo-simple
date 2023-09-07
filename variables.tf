@@ -1,4 +1,4 @@
-variable domain_name {
+variable database_name {
     type = string
     description = "The name of the domain e.g. example"
     default = "example"
